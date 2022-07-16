@@ -2,13 +2,14 @@ package ru.joolsoul.model.playerModel;
 
 import ru.joolsoul.model.cardModel.Card;
 
+import java.util.ArrayList;
 import java.util.List;
 
 public class Player {
 
     private String playerName;
     private int playerBalance;
-    private List<Card> playerCards;
+    private List<Card> playerCards = new ArrayList<>();
     private PlayerRole playerRole;
 
 

@@ -40,7 +40,7 @@ public class Card {
         if (isFaceUp) {
             return image;
         }
-        return null; //TODO вернуть рубашку карты
+        return null; //TODO: вернуть рубашку карты
 
     }
 

@@ -6,7 +6,6 @@ import ru.joolsoul.model.combinationModel.Combination;
 import ru.joolsoul.model.fieldModel.Board;
 import ru.joolsoul.model.fieldModel.GameDeck;
 import ru.joolsoul.model.playerModel.Player;
-import ru.joolsoul.model.stepModel.Step;
 import ru.joolsoul.model.stepModel.StepType;
 
 import java.util.*;
@@ -23,7 +22,7 @@ public class Game {
 
     private Map<Player, Combination> playerCombination = new LinkedHashMap<>();
 
-    private List<Step> gameSteps = new LinkedList<>();
+    private Map<StepType, List<Card>> gameSteps = new LinkedHashMap<>();
 
     private ArrayList<Player> playersInStep = new ArrayList<>();
 
@@ -59,16 +58,24 @@ public class Game {
         return gameDeck;
     }
 
+    public List<Card> getGameDeckCards() {
+        return gameDeck.getCards();
+    }
+
     public void setGameDeck(GameDeck gameDeck) {
         this.gameDeck = gameDeck;
     }
 
-    public Board getBoardCards() {
-        return boardCards;
+    public List<Card> getBoardCards() {
+        return boardCards.getCards();
     }
 
-    public void setBoardCards(Board boardCards) {
-        this.boardCards = boardCards;
+    public void setBoardCards(List<Card> boardCards) {
+        this.boardCards.addCards(boardCards);
+    }
+
+    public void addBoardCard(Card boardCard) {
+        this.boardCards.addCards(boardCard);
     }
 
     public Map<Player, List<Card>> getPlayerCommonCards() {
@@ -87,11 +94,11 @@ public class Game {
         this.playerCombination = playerCombination;
     }
 
-    public List<Step> getGameSteps() {
+    public Map<StepType, List<Card>> getGameSteps() {
         return gameSteps;
     }
 
-    public void setGameSteps(List<Step> gameSteps) {
+    public void setGameSteps(Map<StepType, List<Card>> gameSteps) {
         this.gameSteps = gameSteps;
     }
 

@@ -4,40 +4,44 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="610a3e6f-be61-4a01-a23b-2a943624eec9" name="Changes" comment="Modify game model">
-      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/ru/joolsoul/controller/AIController/ArtificialIntelligence.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/ru/joolsoul/model/playerModel/Bot.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/ru/joolsoul/model/playerModel/Player.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/ru/joolsoul/model/playerModel/PlayerRole.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+    <list default="true" id="610a3e6f-be61-4a01-a23b-2a943624eec9" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/src/main/java/ru/joolsoul/service/HandComparatorService.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/ru/joolsoul/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ru/joolsoul/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/ru/joolsoul/controller/actionController/ActionController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ru/joolsoul/controller/actionController/ActionController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ru/joolsoul/controller/cardController/CardComparatorController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ru/joolsoul/service/CardComparatorService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ru/joolsoul/controller/cardController/CardsDistributorController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ru/joolsoul/controller/cardController/CardsDistributorController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ru/joolsoul/controller/cardController/HandComparatorController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ru/joolsoul/controller/combinationController/CombinationControllerInterface.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ru/joolsoul/controller/combinationController/CombinationControllerInterface.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ru/joolsoul/controller/combinationController/FlushCombinationController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ru/joolsoul/controller/combinationController/FlushCombinationController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ru/joolsoul/controller/combinationController/FourOfAKindCombinationController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ru/joolsoul/controller/combinationController/FourOfAKindCombinationController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ru/joolsoul/controller/combinationController/FullHouseCombinationController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ru/joolsoul/controller/combinationController/FullHouseCombinationController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ru/joolsoul/controller/combinationController/HighCardCombinationController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ru/joolsoul/controller/combinationController/HighCardCombinationController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ru/joolsoul/controller/combinationController/PairCombinationController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ru/joolsoul/controller/combinationController/PairCombinationController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ru/joolsoul/controller/combinationController/RoyalFlushCombinationController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ru/joolsoul/controller/combinationController/RoyalFlushCombinationController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ru/joolsoul/controller/combinationController/StraightCombinationController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ru/joolsoul/controller/combinationController/StraightCombinationController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ru/joolsoul/controller/combinationController/StraightFlushCombinationController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ru/joolsoul/controller/combinationController/StraightFlushCombinationController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ru/joolsoul/controller/combinationController/ThreeOfAKindCombinationController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ru/joolsoul/controller/combinationController/ThreeOfAKindCombinationController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ru/joolsoul/controller/combinationController/TwoPairsCombinationController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ru/joolsoul/controller/combinationController/TwoPairsCombinationController.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/ru/joolsoul/model/Game.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ru/joolsoul/model/Game.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/ru/joolsoul/model/Player.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/ru/joolsoul/model/actionModel/Action.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ru/joolsoul/model/actionModel/Action.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/ru/joolsoul/model/actionModel/ActionType.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ru/joolsoul/model/actionModel/ActionType.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/ru/joolsoul/model/cardModel/Card.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ru/joolsoul/model/cardModel/Card.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/ru/joolsoul/model/cardModel/CardRank.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ru/joolsoul/model/cardModel/CardRank.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/ru/joolsoul/model/cardModel/CardSuit.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ru/joolsoul/model/cardModel/CardSuit.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/ru/joolsoul/model/combinationModel/Combination.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ru/joolsoul/model/combinationModel/Combination.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/ru/joolsoul/model/combinationModel/CombinationType.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ru/joolsoul/model/combinationModel/CombinationType.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/ru/joolsoul/model/fieldModel/Board.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ru/joolsoul/model/fieldModel/Board.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/ru/joolsoul/model/fieldModel/GameDeck.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ru/joolsoul/model/fieldModel/GameDeck.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/ru/joolsoul/model/stepModel/Step.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ru/joolsoul/model/stepModel/Step.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/ru/joolsoul/model/stepModel/StepType.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ru/joolsoul/model/stepModel/StepType.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ru/joolsoul/model/playerModel/Player.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ru/joolsoul/model/playerModel/Player.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ru/joolsoul/model/stepModel/Step.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/CombinationTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/CombinationTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="CodeInsightWorkspaceSettings">
+    <option name="optimizeImportsOnTheFly" value="true" />
+  </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Interface" />
         <option value="Enum" />
+        <option value="JUnit5 Test Class" />
         <option value="Class" />
       </list>
     </option>
@@ -61,19 +65,29 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "WebServerToolWindowFactoryState": "false",
-    "last_opened_file_path": "D:/JetBrains/IdeaProjects/OOP/PokerApp",
-    "project.structure.last.edited": "Project",
-    "project.structure.proportion": "0.15",
-    "project.structure.side.proportion": "0.2",
-    "settings.editor.selected.configurable": "reference.projectsettings.compiler.javacompiler"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary&quot;: &quot;JUnit5&quot;,
+    &quot;com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5&quot;: &quot;&quot;,
+    &quot;last_opened_file_path&quot;: &quot;D:/JetBrains/IdeaProjects/OOP/PokerApp&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Project&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;editor.preferences.import&quot;
   }
-}]]></component>
-  <component name="RunManager">
+}</component>
+  <component name="RecentsManager">
+    <key name="CreateTestDialog.Recents.Supers">
+      <recent name="" />
+    </key>
+    <key name="CreateTestDialog.RecentsKey">
+      <recent name="ru.joolsoul.controller.cardController" />
+    </key>
+  </component>
+  <component name="RunManager" selected="JUnit.CombinationTest">
     <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="ru.joolsoul.Main" />
       <module name="PokerGame" />
@@ -87,8 +101,51 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="CombinationTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="PokerGame" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="CombinationTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="CombinationTest.testFullHouseCombination" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="PokerGame" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="CombinationTest" />
+      <option name="METHOD_NAME" value="testFullHouseCombination" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="CombinationTest.testStraightCombination" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="PokerGame" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="CombinationTest" />
+      <option name="METHOD_NAME" value="testStraightCombination" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="CombinationTest.testStraightFlushCombination" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="PokerGame" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="CombinationTest" />
+      <option name="METHOD_NAME" value="testStraightFlushCombination" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.CombinationTest" />
+        <item itemvalue="JUnit.CombinationTest.testStraightFlushCombination" />
+        <item itemvalue="JUnit.CombinationTest.testFullHouseCombination" />
+        <item itemvalue="JUnit.CombinationTest.testStraightCombination" />
         <item itemvalue="Application.Main" />
       </list>
     </recent_temporary>
@@ -107,7 +164,10 @@
       <workItem from="1657728024181" duration="348000" />
       <workItem from="1657728392463" duration="166000" />
       <workItem from="1657728641532" duration="1466000" />
-      <workItem from="1657730829037" duration="2716000" />
+      <workItem from="1657730829037" duration="3725000" />
+      <workItem from="1657820666149" duration="11651000" />
+      <workItem from="1657875835079" duration="11484000" />
+      <workItem from="1657986515163" duration="16240000" />
     </task>
     <task id="LOCAL-00001" summary="Create application archetype">
       <created>1657652955589</created>
@@ -116,7 +176,14 @@
       <option name="project" value="LOCAL" />
       <updated>1657652955589</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Modify game model">
+      <created>1657733657623</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1657733657623</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -128,6 +195,21 @@
     <option name="LAST_COMMIT_MESSAGE" value="Modify game model" />
     <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="true" />
     <option name="REFORMAT_BEFORE_PROJECT_COMMIT" value="true" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-method">
+          <url>file://$PROJECT_DIR$/src/main/java/ru/joolsoul/service/HandComparatorService.java</url>
+          <line>15</line>
+          <properties class="ru.joolsoul.service.HandComparatorService" method="compare">
+            <option name="EMULATED" value="true" />
+            <option name="WATCH_EXIT" value="false" />
+          </properties>
+          <option name="timeStamp" value="3" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
